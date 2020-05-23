@@ -1,0 +1,99 @@
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: 'Kreon', serif;
+  font-weight: 300;
+  margin: 0;
+}
+img {
+  width: 300px;
+}
+header {
+  background: #222;
+  color: #D8EBEB;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.divider > section {
+
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+
+}
+.SM {
+  background: #90F6F7;
+}
+
+.Other {
+  background: #D8EBEB;
+}
+.School {
+  background: #BDF1D4;
+}
+footer {
+  background: #FFFFFF;
+  color: #000000;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+.pic {
+    width: calc(25% - 20px);
+    height: calc(25% - 20px);
+    min-height: 100px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.showpics {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.show {
+  width: 100%;
+  height: 500px;
+  border: solid 3px black;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.showcaption {
+  margin: 20px;
+}
