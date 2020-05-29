@@ -67,8 +67,7 @@ footer {
   display: inline-block;
 }
 
-
-.pic {
+.card {
     width: calc(25% - 20px);
     height: calc(25% - 20px);
     min-height: 100px;
@@ -79,7 +78,7 @@ footer {
     margin-top: 5px;
 }
 
-.showpics {
+.cards {
     display: flex;
     flex-wrap: wrap;
     padding-left: 20px;
@@ -96,4 +95,61 @@ footer {
 
 .showcaption {
   margin: 20px;
+}
+
+.featured_image {
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.next, .prev, .close {
+    position: absolute;
+    font-size: 2.5em;
+    color: black;
+    border-width: 0px;
+    padding-bottom: 5px;
+}
+
+.close {
+    background: none;
+    top: 0vh;
+    line-height: 1em;
+    right: 0vh;
+}
+
+.next, .prev {
+    background: rgba(255,255,255,0.2);
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+}
+.next:hover, .prev:hover, .close:hover {
+    background: rgba(255,255,255,0.4);
+}
+.prev {
+    top: 45vh;
+    left: 2vw;
+}
+.next {
+    top: 45vh;
+    right: 2vw;
+}
+
+.preview {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.preview.active {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background: #90F6F7;
 }
