@@ -23,7 +23,7 @@ const getTracks = (term) => {
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      //console.log(data);
+      console.log(data);
       for (const track of data.slice(0, 5)) {
         const template = `<section class="track-item preview" data-preview-track="${track.preview_url}">
     <img src="${track.album.image_url}">
