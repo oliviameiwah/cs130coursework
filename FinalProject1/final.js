@@ -9,7 +9,7 @@ const showPhoto = (e) => {
     document.querySelector('.preview').className = "preview active";
 
     document.querySelector('.featured_image').style.backgroundImage = activeCard.style.backgroundImage;
-    document.querySelector('body').style.overflow = 'hidden';
+    //document.querySelector('body').style.overflow = 'hidden';
 };
 
 //const cards = document.querySelectorAll('.card');
